@@ -21,7 +21,7 @@ This project aims to develop a comprehensive data pipeline for monitoring and vi
     <li>DATABASE_URI for PostgreSQL</li>
 </ul>
 
-<h4>Run the `states.py` file</h4>
+<h4>Run the `states.py` file and store the result as "test_data.json"</h4>
 This will fetch all the city data where air quality data centers are present.
 
 <h4>Run the `main.py` file to execute your pipeline.</h4>
