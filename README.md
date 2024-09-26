@@ -27,3 +27,6 @@ This will fetch all the city data where air quality data centers are present.
 <h4>Run the `main.py` file to execute your pipeline.</h4>
 
 <h4>To orchestrate, you can use any orchestration tools for daily change captures.</h4>
+
+# Dimensions & Facts Tables
+![image](https://github.com/user-attachments/assets/9ca7fdfd-941e-4d3e-924f-6c793ab40132)
