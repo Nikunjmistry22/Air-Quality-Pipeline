@@ -1,6 +1,31 @@
 # Air Quality Pipeline
 
-This project aims to develop a comprehensive data pipeline for monitoring and visualizing air quality data. The system extracts air quality data from the Air Visuals API, loads it into a PostgreSQL database, transforms the data using DBT, and visualizes it using BI tools such as Metabase, Power BI, or Tableau. The goal is to provide real-time and historical insights into air quality, enabling better decision-making and awareness.
+This project is designed to extract, transform, and load (ETL) air quality data into a Supabase PostgreSQL database. The data is processed to provide insights into air quality across various cities. This pipeline is built using Python for extraction, data transformation, and automation tools, and Supabase PostgreSQL is used as the backend database.
+
+# Features
+<ul>
+    <li>Data Extraction: Fetches air quality data from external APIs.</li>
+    <li>Data Transformation: Cleans and transforms the data to match database schema requirements.</li>
+    <li>Database Integration: Loads processed data into Supabase PostgreSQL.</li>
+    <li>Automation: The pipeline can be scheduled to run periodically to ensure up-to-date data ingestion.</li>
+</ul>
+
+# Tech Stack
+<ul>
+    <li>Language: Python</li>
+    <li>Database: Supabase PostgreSQL</li>
+    <li>APIs: Air Visuals</li>
+    <li>Automation: Airflow (optional), Cron jobs, or custom scheduling scripts.</li>
+</ul>
+
+# Setup Guide
+Prerequisites
+Ensure you have the following installed:
+<ul>
+<li>Python 3.x
+<li>Supabase Account with PostgreSQL Database</li>
+<li>API key for air quality data AirVisuals</li>
+</ul>
 
 # High-Level Architecture
 ![image](https://github.com/user-attachments/assets/dfe790e7-bed3-491c-a136-233961505321)
